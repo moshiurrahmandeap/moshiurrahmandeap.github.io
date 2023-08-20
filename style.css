@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.left {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.left h1 {
+    color: #1877F2;
+    font-size: 70px;
+}
+
+.left p{
+    color: #2e2f66;
+    font-size: 25px;
+    width: px;
+    margin-top: 10px;
+}
+
+header {
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px -7px;
+}
+
+
+.box input {
+    width: 320px;
+    height: 50px;
+    margin-top: 18px;
+    margin-left: 15px;
+    text-decoration: transparent;
+    border: 1.5px solid rgb(200, 200, 200);
+    border-radius: 4px;
+    color: black;
+}
+
+.box input::placeholder {
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(221, 221, black, 2.0)
+}
+
+
+.link1 {
+    width: 86%;
+    text-align: center;
+    background-color: #2C83f2;
+    margin-top: 10px;
+    margin-left: 14px;
+    padding: 11px;
+    border-radius: 5px;
+}
+
+.link1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.link2 {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.link2 a {
+    text-decoration: none;
+    color: #2C83f2;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+hr {
+    width: 92%;
+    margin-left: 14px;
+    margin-top: 12px;
+    color: #ddd;
+}
+
+.link3 {
+    width: 50%;
+    margin: 23%;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #36A420;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.link3 a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.link3:hover {
+    background-color: gray;
+}
